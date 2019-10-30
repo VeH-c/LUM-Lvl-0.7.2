@@ -1,0 +1,349 @@
+Bugs:
+Players become disguised as bots occasionally (Bot informations are not reset entirely?)
+
+######################################################
+switch to most favorite weapon upon respawn
+
+call update stat:
+*from time to time
+*freeze
+*disconnecting
+*logging out
+
+access character commands only if logged in to prevent bugs
+if logged in already then dont login again
+
+upgrade give weapon if not owned and ammo instantly
+
+upgrade life gives life instantly
+
+upon kill give back ammo
+
+Admin command: freeze + update account file
+Admin command: makemod
+
+Bullet speed down 2200 --> 1700
+
+emote function
+
+hammer mines
+
+collectable health/armor
+
+life / armor leave game layer destroy
+
+health / armor as float
+
+undercover mode
+
+Weapon & explosion damage scaling (in percent base)
+
+that bouncing grenade with nice explosion out of wall
+
+toggle undercover when not anymore mod is 0
+
+grenade lifetime destroy without "bouncing"
+
+make conmakemod / all other functions search for player with new GetAccId
+
+admin command dump
+
+level tuning file
+
+max, min allowed level
+
+hammer kill at last level for server crashes - solved by putting in delay
+
+make default maps but without life or guns
+
+skillpoints --> money
+
+sort by level instead of score (nope --> calculate score out of level and exp)
+
+droplife gets stuck in wall
+
+promo broadcast before login --> "* Levels, Upgrades & Mayhem *"
+
+make directory create automatically if not existing
+
+forum post
+
+####after release
+
+[2.7]
+info "bind key to upgrade faster"
+
+[2.8]
+2 hp 1 armor
+
+[2.9]
+spawn protection
+
+[3.0]
+/register with russian characters crashes the game
+
+[3.1]
+Hammermines halved firerate
+
+[3.2]
+server self starting program
+
+[3.3]
+life buffs
+
+[3.4]
+make emote settings save in account
+
+[3.5]
+buff hammer
+
+[3.6]
+MOTD - contact info
+
+[3.7]
+NoxNebula / Retro - credits KOG
+
+[3.8]
+top 10 list
+
+[3.9]
+Droplife stuck final fix
+
+[4.0]
+Cloudserver start tickstarter on startup automatically
+
+[4.1]
+Background of springfalls --> high details off
+
+[4.2]
+/upgr weapon amount
+
+[4.3]
+hammer damage buff
+
+[4.4]
+one modlog for all 5 servers :)
+
+[4.5]
+remove spectator kick when inactive
+
+[4.6]
+faster gun/hammer clickable when not automatic yet
+
+[4.7]
+tell stats to other players
+
+[4.8]
+write to modlog function
+freeze unfreeze modlog
+
+[4.9]
+moderators get frozen if attempting to freeze other moderators
+
+[5.0]
+add iq crispbread bots
+
+[5.1]
+show on topten only if not frozen
+
+[5.2]
+BOTS::::::::
+Change direction when walking against wall
+bots dont gain exp
+add bots if no players are online
+only active when human players are online
+only one of each sort
+slower clicking when semifiring
+they change favorite weapon once in a while
+They have longer reaction time from when you enter their field of vision
+check if voting for bots works
+vote bots 0 3 5
+autovote max bots if no players are around
+
+[5.3]
+awesome chatlog so you never miss a conversation ^^ :)
+
+[5.4]
+server send chat with va_list
+
+[5.5]
+Admin & Moderator ignore level limits
+
+[5.6]
+Exclude bots from voting
+
+[5.7]
+moderator show stats
+
+[5.8]
+dont list bot ids
+
+[5.9]
+Player registered an account ... in modlog
+
+[6.0]
+moderator kick, ban
+
+[6.1]
+exp: (15 / 16)
+level up (3) Money (+5) (20)
+
+[6.2]
+1 hp / 1 armor lvl 1 player +4 per upgrade
+
+[6.3]
++2 shells per kill reward
+
+[6.4]
+level bonus min 2 when killing over 100% lvldiff but under lvl 10
+
+[6.5]
+buff bot damages along with life changes
+
+[6.6]
+bots spectatorvotable so remove spectator vote since noone uses it anyway
+
+[6.7]
+three stars admin, two moderator one reserve
+
+[6.8]
+spawnprotect marker
+
+[6.9]
+katana
+
+[7.0]
+bots harder
+
+[7.1]
+27% damage gain gun
+
+[7.2]
+newpassword function
+
+[7.3]
+life bonus each 10 and 100 life
+
+[7.4]
+katana +16 exp on pickup
+ammo reward for kill +2 --> +3
+/ticket function :)))))))
+
+[7.5]
+flat +8 pickup
+katana pickup bonus +30% level
+life +20 on 100
++3 per step in killstreak bonus
+
+[7.6]
+topten format #1 [775]Doodle
+spreadperten 15 --> 11
+shotgun cap at 300 with 180° spread
+gun 1.27 --> 1.3
+hammer 1.3 --> 2
+
+[7.7]
+event double exp
+event surprise party
+Katana 20% level
+
+[7.8]
+gun 1.4
+katana 0.25
+hammer only in fly mode 100% bonus
+rifle 150 range
+rifle tripleshot spread reduced 5° --> 4°
+
+[7.9]
+startevent admin command
+event duration up 10min --> 15min
+event minimum delay down 30min --> 15min
+steady send of login register broadcast until logged in
+rifle range 150 --> 200
+
+[8.0]
+spectators no longer affect bot level
+clearer game help
+level difference each 50 flat * 2
+fixed a bug where wiriting a % would rarely crash the server
+gun 1.5
+
+[8.1]
+switchmode
+ham fly mines
+gun concentrate +35% firerate
+sho 100% sp /2 baseran
+gr 3x no knock
+rif concentrate double firerate
+
+[8.2]
+low gravity event (-normal tuning is overwritten each tick)
+
+[8.3]
+all weapon 25% damage gain per level
+40% droplife drop ratio
+85% shotgun scale
+gun switchmode works only after attaining spread
+rifle switchmode works only after attaining spread
+
+[8.4]
+better login help broadcast
+info for newcomers that they can upgrade weapons if they havent used it yet
+bots reset health if there are no human active players
+bots chat with newcomers if there are no active players (bot with id 15)
+
+[8.5]
+bot help more informative (no talking about locking someone in a cage of kittens)
+Surprise party remove (Disguise bug?)
+Event skip vote
+Event redeem codes
+accounts + redeemcodes folder one layer out for convenience
+Better chat storage like accounts and redeemcodes
+Better folder creating system (all in OnInit and fully automatic now)
+
+[8.6]
+Bots use switchmode
+Admins shop for free
+30 bullets spread across 300 level, early on more bullets and later on less bullets gain
+Shotgun scale 300%
+Hammer scale 300%
+Rifle scale 150%
+Rifle single shot instead of concentrated but 2x - 3x firerate
+Grenade always 1x knockback force
+
+[8.7]
+Modlog lines in chatlog
+Out of buffer crashes, maybe because of sending help broadcast 60 times a second? - fixed
+16 players
+Added blink emote
+Persistent events
+Admin command resetacc considers money (so does the redeem reset command)
+
+[8.8]
+Low gravity jetpack jump
+No more life bonus each 10 100
+life / armor 4 --> 6 gradually increasing up to this limit over the level, starting from +1
+gun 1.65
+gun switchmode tripleshot, -1/3 firerate
+Bounce grenade bounce on char
+Gun bugfix (tripleshot on lvl 1)
+
+[8.9]
+registering automatically logs in
+
+[9.0]
+Rifle spread 5 instead of 4 at tripleshot
+Discord link in MOTD
+Weapon showoff when no players are around
+
+[9.1]
+disabled kickvoting
+min 5min to 45min between events
+
+[9.2]
+removed weapon showoff (bots would have op weapons when alone) because the game would crash
+
+[9.3]
+Ported to Linux
+Lummies are removed in a while() loop instead of a if condition (maybe resolves disguise bug)
+Fixed Peripheral Interchange Program bugs (con, aux, prn, nul filenames)

@@ -1,0 +1,8 @@
+﻿  Quelle.cpp
+c:\users\hawken\source\repos\redeem code generator\redeem code generator\quelle.cpp(72): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+  Code wird generiert.
+  4 of 8 functions (50.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  Redeem code generator.vcxproj -> C:\Users\Hawken\source\repos\Redeem code generator\x64\Release\Redeem code generator.exe

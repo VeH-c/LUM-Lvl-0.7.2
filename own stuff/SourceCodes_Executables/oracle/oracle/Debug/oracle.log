@@ -1,0 +1,9 @@
+﻿  Quelle.cpp
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(11): error C2065: "WAITTIME": nichtdeklarierter Bezeichner
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(23): error C2065: "WAITTIME": nichtdeklarierter Bezeichner
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): error C2065: "WAITTIME": nichtdeklarierter Bezeichner
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): warning C4477: "printf": Die Formatzeichenfolge "%.2f" erfordert ein Argument vom Typ "double", das variadic-Argument "1" weist aber den Typ "int" auf.
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): warning C4477: "printf": Die Formatzeichenfolge "%d" erfordert ein Argument vom Typ "int", das variadic-Argument "2" weist aber den Typ "std::chrono::seconds" auf.
+c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): warning C4473: "printf": nicht genügend Argumente für Formatzeichenfolge übergeben
+  c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): note: Platzhalter und deren Parameter erwarten 3 variadic-Argumente, es wurden aber 2 variadic-Argumente bereitgestellt.
+  c:\users\hawken\source\repos\oracle\oracle\quelle.cpp(28): note: Das fehlende variadic-Argument "3" ist für die Zeichenfolge "%d" erforderlich.

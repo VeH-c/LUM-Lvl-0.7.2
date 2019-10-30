@@ -1,0 +1,46 @@
+[5c977130][server]: starting...
+[5c977130][datafile]: loading. filename='maps/Springfalls.map'
+[5c977130][datafile]: allocsize=2764
+[5c977130][datafile]: readsize=2476
+[5c977130][datafile]: swaplen=2496
+[5c977130][datafile]: item_size=2096
+[5c977130][datafile]: loading done. datafile='maps/Springfalls.map'
+[5c977130][datafile]: loading data index=13 size=106 uncompressed=612
+[5c977130][datafile]: loading data index=14 size=230 uncompressed=400
+[5c977130][datafile]: loading data index=15 size=242 uncompressed=1236
+[5c977130][datafile]: loading data index=16 size=63 uncompressed=156
+[5c977130][datafile]: loading data index=17 size=342 uncompressed=1064
+[5c977130][datafile]: loading data index=18 size=394 uncompressed=2236
+[5c977130][datafile]: loading data index=19 size=112 uncompressed=268
+[5c977130][datafile]: loading data index=20 size=334 uncompressed=656
+[5c977130][server]: maps/Springfalls.map crc is e955c8f5
+[5c977130][server]: server name is 'LUM|lvl *Mayhem* [public]'
+[5c977130][server]: version 0.7 802f1be60a05665f
+[5c977130][engine/mastersrv]: refreshing master server addresses
+[5c977130][register]: refreshing ip addresses
+[5c977130][engine/mastersrv]: saving addresses
+[5c977130][register]: fetching server counts
+[5c977133][register]: chose 'master3.teeworlds.com' as master, sending heartbeats
+[5c977134][register]: no firewall/nat problems detected
+[5c977134][register]: server registered
+[5c97713f][server]: player is ready. ClientID=0 addr=192.168.178.20:55697
+[5c97713f][server]: player has entered the game. ClientID=0 addr=192.168.178.20:55697
+[5c97713f][game]: team_join player='0:Nolay' team=-1
+[5c97713f][chat]: *** --------------------------------------------------------------------
+[5c97713f][chat]: *** Welcome to the LUM level server!
+[5c97713f][chat]: *** --------------------------------------------------------------------
+[5c97713f][chat]: *** /register username password - create account
+[5c97713f][chat]: *** /login username password - login to account
+[5c97713f][chat]: *** /logout - log out
+[5c97713f][chat]: *** *Username and password may only contain [aA-zZ] and [0-9]
+[5c97713f][chat]: *** --------------------------------------------------------------------
+[5c97713f][chat]: *** Type "/help" for more info
+[5c977143][chat]: *** Wrong username / password
+[5c977148][chat]: *** Account registered successfully
+[5c97714c][chat]: *** Wrong username / password
+[5c977150][game]: team_join player='0:Nolay' m_Team=0
+[5c977150][chat]: *** Welcome Nolay!
+[5c977150][chat]: *** 
+[5c977153][server]: client dropped. cid=0 addr=192.168.178.20:55697 reason=''
+[5c977153][game]: kill killer='0:Nolay' victim='0:Nolay' weapon=-3 special=0
+[5c977153][game]: leave player='0:Nolay'

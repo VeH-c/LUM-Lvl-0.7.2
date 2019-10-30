@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\game",
+    "\\src\\game\\server",
+    "\\src\\game\\server\\entities"
+  ],
+  "SelectedNode": "\\src\\game\\server\\gamecontroller.cpp",
+  "PreviewInSolutionExplorer": false
+}
